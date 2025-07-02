@@ -1,32 +1,24 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Yiwei Si
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Summary
+      value: PhD student with interests in morphosyntax
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: DPhil in Linguistics, Philology and Phonetics
+      institution: University of Oxford
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Supervisor: Dr. Kerstin Hoge"
+    - title: MPhil in Linguistics, Philology and Phonetics
+      institution: University of Oxford
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "Supervisor: Dr. Kerstin Hoge"
 
 - title: Experience
   type: time_table
