@@ -6,7 +6,7 @@ subtitle: "司奕玮 · [jiwei̯] [sɨ] · she/her"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
 
