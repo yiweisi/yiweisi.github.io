@@ -27,8 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! My name is Yiwei Si (司奕玮) I’m currently a third-year PhD student in Linguistics at the Faculty of Linguistics, Philology and Phonetics at the University of Oxford. I’m fortunate to be supported by both the Clarendon Scholarship and the Hanseatic Scholarship. As part of the Hanseatic Scholarship, I’ll be spending a year as a visiting researcher at the Leibniz-Centre General Linguistics (ZAS) in Berlin, starting in October 2025.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My main research interest lies in morphology and its interfaces with phonology, syntax, and semantics. In my DPhil thesis, I explore how verbal particles in German contribute to the expression of aspect from both syntactic and semantic perspectives, using a neo-constructionist approach to word formation. I’m additionally interested in syntax, psycholinguistics and first language acquisition.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before starting my PhD, I completed an MPhil in Linguistics at Oxford in 2022. I earned my Bachelor’s degree in German Studies from Beijing Foreign Studies University in China.
+
+Outside of linguistics, I enjoy exploring local restaurants, practicing yoga, playing tennis, and travelling.
+
+#Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+
+#Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+#Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
