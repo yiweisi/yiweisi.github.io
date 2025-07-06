@@ -18,8 +18,14 @@ nav_order: 5
 
 - Paper taught: ‘German V (ii): Linguistic Studies II: Present Day’
 - Conducted weekly one-to-one and small group tutorials for first- and second-year undergraduates in Modern Languages and Linguistics (MLL), and Psychology, Philosophy and Linguistics (PPL), totaling 4 hours of instruction per week.
-- Topics: German phonetics and phonology, German morphology, German syntax, V3 in Kiezdeutsch (linguistic variation), The sociophonetics of gender identity (linguistic
-variation), Acquisition of German noun plurals (language acquisition), Finiteness and particles (language acquisition)
+- Topics:
+  - German phonetics and phonology
+  - German morphology
+  - German syntax
+  - V3 in Kiezdeutsch (linguistic variation)
+  - The sociophonetics of gender identity (linguistic variation)
+  - Acquisition of German noun plurals (language acquisition)
+  - Finiteness and particles (language acquisition)
 
 <br>
 
