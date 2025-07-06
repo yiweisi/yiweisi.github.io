@@ -398,10 +398,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-m-honoured-to-receive-the-hanseatic-scholarship-from-the-alfred-toepfer-stiftung-tada",
+            },},{id: "news-i-m-honoured-to-receive-the-hanseatic-scholarship-from-the-alfred-toepfer-stiftung-tada",
           title: 'I’m honoured to receive the Hanseatic scholarship from the Alfred Toepfer Stiftung! :tada:...',
           description: "",
           section: "News",},{id: "news-i-ll-be-presenting-a-poster-at-amlap-2025-on-the-role-of-phonology-in-morphological-processing-with-evidence-from-german-complex-verbs-joint-work-with-prof-aditi-lahiri-and-dr-isabella-fritz-this-will-be-my-first-psycholinguistics-conference-experience",
