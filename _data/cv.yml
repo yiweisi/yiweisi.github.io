@@ -26,31 +26,33 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Hanseatic Scholarship (approx. GBP 12,570), Alfred Toepfer Stiftung
+    - title: Hanseatic Scholarship (approx. GBP 12,570) 
+      institution: Alfred Toepfer Stiftung
       year: 2025 - 2026
-    - title: Clarendon Fund Scholarship (approx. GBP 102,000), University of Oxford
+    - title: Clarendon Fund Scholarship (approx. GBP 102,000)
+      institution: University of Oxford
       year: 2022 - 2025
-    - title: Katrina Hayward Prize (GBP 100), Faculty of Linguistics, Philology and Phonetics, University of Oxford
+    - title: Katrina Hayward Prize (GBP 100)
+      institution: Faculty of Linguistics, Philology and Phonetics, University of Oxford
       year: 2022
       items:
         - Best performance in the MPhil examination
-    - title: Visiting Student Scholarship (EUR 10,000), China Scholarship Council
+    - title: Visiting Student Scholarship (EUR 10,000)
+      institution: China Scholarship Council
       year: 2018 - 2019
       
 
-- title: Experience
+- title: Reserach Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research assistant
+      institution: Oxford Language and Brain Lab
+      Principle investigators: Prof. Aditi Lahiri, Dr. Isabella Fritz
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Investigated the processing of German complex verbs, including particle verbs, prefix verbs, and double particle verbs (with hin- and her-) using cross-modal priming with EEG.
+        - The first investigation of German double particle verb processing contributes to the EEG-based exploration of German complex verb processing.
+        - Supported all steps of research process including experimental design, stimuli preparation, participant recruitment, data collection and analysis, and manuscript preparation.
     - title: Visiting Professor
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
