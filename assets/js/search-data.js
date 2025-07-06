@@ -398,16 +398,19 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-i-m-honoured-to-receive-the-hanseatic-scholarship-from-the-alfred-toepfer-stiftung-tada",
+          title: 'I’m honoured to receive the Hanseatic scholarship from the Alfred Toepfer Stiftung! :tada:...',
+          description: "",
+          section: "News",},{id: "news-i-ll-be-presenting-a-poster-at-amlap-2025-https-amlap2025-ff-cuni-cz-on-the-role-of-phonology-in-morphological-processing-with-evidence-from-german-complex-verbs-this-will-be-my-first-psycholinguistics-conference-experience",
+          title: 'I’ll be presenting a poster at [AMLaP 2025](https://amlap2025.ff.cuni.cz/) on the role of phonology...',
           description: "",
           section: "News",},{
         id: 'social-email',
