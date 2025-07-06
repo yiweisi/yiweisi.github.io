@@ -21,7 +21,7 @@ nav_order: 5
 - Topics: German phonetics and phonology, German morphology, German syntax, V3 in Kiezdeutsch (linguistic variation), The sociophonetics of gender identity (linguistic
 variation), Acquisition of German noun plurals (language acquisition), Finiteness and particles (language acquisition)
 
-
+<br>
 
 
 ### Teaching Assistant/Tutor
@@ -33,7 +33,5 @@ variation), Acquisition of German noun plurals (language acquisition), Finitenes
   - Hilary Term 2024 with Dr. Danfeng Wu
   - Hilary Term 2023 with Dr. Daniel Altshuler
  
-<br>
-
 - **German V (ii): Linguistic Studies II: Present Day**  
   - Trinity Term 2025 with Dr. Kerstin Hoge
