@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: "司奕玮 · [jiwei̯] [sɨ] · she/her"
 
