@@ -409,8 +409,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-honoured-to-receive-the-hanseatic-scholarship-from-the-alfred-toepfer-stiftung-tada",
           title: 'I’m honoured to receive the Hanseatic scholarship from the Alfred Toepfer Stiftung! :tada:...',
           description: "",
-          section: "News",},{id: "news-i-ll-be-presenting-a-poster-at-amlap-2025-https-amlap2025-ff-cuni-cz-on-the-role-of-phonology-in-morphological-processing-with-evidence-from-german-complex-verbs-this-will-be-my-first-psycholinguistics-conference-experience",
-          title: 'I’ll be presenting a poster at [AMLaP 2025](https://amlap2025.ff.cuni.cz/) on the role of phonology...',
+          section: "News",},{id: "news-i-ll-be-presenting-a-poster-at-amlap-2025-on-the-role-of-phonology-in-morphological-processing-with-evidence-from-german-complex-verbs-this-will-be-my-first-psycholinguistics-conference-experience",
+          title: 'I’ll be presenting a poster at AMLaP 2025 on the role of phonology...',
           description: "",
           section: "News",},{
         id: 'social-email',
