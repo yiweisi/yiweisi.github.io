@@ -10,15 +10,13 @@ nav_order: 2
 <!------------------- Lecturer -------------------->
 
 
-### Lecturer (University of Oxford)
-
-<hr>
+### Conference presentations
 
 <!-- _pages/publications.md -->
 
 
 <div class="publications">
 
-{% bibliography --file papers %}
+{% bibliography --file conference %}
 
 </div>
