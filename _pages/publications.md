@@ -9,6 +9,18 @@ nav_order: 2
 
 <!------------------- Lecturer -------------------->
 
+### Journals
+
+<!-- _pages/publications.md -->
+
+
+<div class="publications">
+
+{% bibliography --file journals %}
+
+</div>
+
+
 
 ### Conference presentations
 
