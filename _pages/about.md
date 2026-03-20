@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "司奕玮 · [jiwei̯] [sɨ] · she/her"
+subtitle: "司奕玮 · [jiwei̯] [sɨ]"
 
 profile:
   align: right
