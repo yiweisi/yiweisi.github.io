@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yiwei
 middle_name:
 last_name: Si
-description: A linguist with a PhD from the University of Oxford. Research focuses on German morphology and syntax.
+description: A third-year PhD student in the Faculty of Linguistics, Philology and Phonetics at University of Oxford. Research focuses on German morphology and syntax.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: # add your own keywords or leave empty
