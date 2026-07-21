@@ -26,7 +26,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Hanseatic Scholarship (approx. GBP 12,570) 
+    - title: Hanseatic Scholarship (approx. GBP 12,570)
       institution: Alfred Toepfer Stiftung
       year: 2025 - 2026
     - title: Clarendon Fund Scholarship (approx. GBP 102,000)
@@ -40,7 +40,6 @@
     - title: Visiting Student Scholarship (EUR 10,000)
       institution: China Scholarship Council
       year: 2018 - 2019
-      
 
 - title: Reserach Experience
   type: time_table
@@ -68,7 +67,6 @@
       description:
         - "Principle investigator: Prof. Yan Lin"
       year: 2018
-    
 
 - title: Skills
   type: nested_list
@@ -77,7 +75,7 @@
       items:
         - Chinese Mandarin (native), English (fluent), German (fluent), Korean (elementary), French (elementary)
     - title: Experimental skills
-      items: 
+      items:
         - Acquisition and analysis of EEG data (BrainVision Recorder/Analyzer, EEGlab and ERPlab in MatLab)
     - title: Technical skills
       items:

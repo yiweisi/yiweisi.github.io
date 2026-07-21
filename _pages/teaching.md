@@ -2,13 +2,12 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: 
+description:
 nav: true
 nav_order: 5
 ---
 
 <!------------------- Lecturer -------------------->
-
 
 ### Lecturer (University of Oxford)
 
@@ -29,15 +28,15 @@ nav_order: 5
 
 <br>
 
-
 ### Teaching Assistant/Tutor
 
 <hr>
 
-- **Prelim Semantics and Pragmatics**  
+- **Prelim Semantics and Pragmatics**
+
   - Hilary Term 2025 with Dr. Daniel Altshuler
   - Hilary Term 2024 with Dr. Danfeng Wu
   - Hilary Term 2023 with Dr. Daniel Altshuler
- 
-- **German V (ii): Linguistic Studies II: Present Day**  
+
+- **German V (ii): Linguistic Studies II: Present Day**
   - Trinity Term 2025 with Dr. Kerstin Hoge

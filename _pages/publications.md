@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 
+description:
 nav: true
 nav_order: 2
 ---
@@ -13,7 +13,6 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-
 <div class="publications">
 
 {% bibliography --file journals %}
@@ -22,11 +21,9 @@ nav_order: 2
 
 <br>
 
-
 ### Conference presentations
 
 <!-- _pages/publications.md -->
-
 
 <div class="publications">
 
