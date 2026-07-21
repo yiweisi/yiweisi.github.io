@@ -63,6 +63,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-presenting-a-poster-at-amlap-2025-on-the-role-of-phonology-in-morphological-processing-with-evidence-from-german-complex-verbs-joint-work-with-prof-aditi-lahiri-and-dr-isabella-fritz-this-will-be-my-first-psycholinguistics-conference-experience",
           title: 'I’ll be presenting a poster at AMLaP 2025 on the role of phonology...',
           description: "",
+          section: "News",},{id: "news-milestone-reached-i-successfully-defended-my-dphil-thesis-today-i-am-deeply-grateful-to-my-examiners-professor-wolfgang-de-melo-and-professor-artemis-alexiadou-for-an-engaging-viva-and-constructive-discussion-special-thanks-as-well-to-my-supervisor-dr-kerstin-hoge-for-her-unwavering-support-and-mentorship-over-the-years",
+          title: 'Milestone reached! I successfully defended my DPhil thesis today. I am deeply grateful...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
