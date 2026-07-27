@@ -1,8 +1,13 @@
 ---
 ---
 <!-- _layouts/bib.html -->
+{%- assign has_badge_or_preview = false -%}
+{%- if site.enable_publication_thumbnails and (entry.preview or entry.abbr) -%}
+  {%- assign has_badge_or_preview = true -%}
+{%- endif -%}
+
 <div class="row">
-  {%- if site.enable_publication_thumbnails -%}
+  {%- if has_badge_or_preview -%}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {%- if entry.preview -%}
         {% if entry.preview contains '://' -%}
@@ -38,7 +43,7 @@
   {%- endif -%}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="{% if has_badge_or_preview %}col-sm-10{% else %}col-12{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -217,7 +222,7 @@
       {%- endif %}
     </div>
     {% if site.enable_publication_badges %}
-      {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
+      {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or entry.eprint or entry.pmid or entry.isbn %}
       {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
         <div class="badges">
@@ -246,7 +251,7 @@
               class="__dimensions_badge_embed__"
               {% if entry.doi %}
                 data-doi="{{ entry.doi }}"
-              {% else %}
+              {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% else %}
                 data-id="{{ entry.dimensions }}"
