@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /conference/
-title: Conference
+title: Presentations
 description:
 nav: true
 nav_order: 3
