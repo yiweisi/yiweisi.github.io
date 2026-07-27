@@ -6,7 +6,7 @@
   {%- assign has_badge_or_preview = true -%}
 {%- endif -%}
 
-<div class="row">
+<div class="row mx-0">
   {%- if has_badge_or_preview -%}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {%- if entry.preview -%}
@@ -43,7 +43,7 @@
   {%- endif -%}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if has_badge_or_preview %}col-sm-10{% else %}col-12{% endif %}">
+  <div id="{{entry.key}}" class="{% if has_badge_or_preview %}col-sm-10 px-0{% else %}col-12 px-0{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
