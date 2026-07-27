@@ -66,6 +66,9 @@ ninja.data = [{
           section: "News",},{id: "news-milestone-reached-i-successfully-defended-my-dphil-thesis-today-i-am-deeply-grateful-to-my-examiners-professor-wolfgang-de-melo-and-professor-artemis-alexiadou-for-an-engaging-viva-and-constructive-discussion-special-thanks-as-well-to-my-supervisor-dr-kerstin-hoge-for-her-unwavering-support-and-mentorship-over-the-years",
           title: 'Milestone reached! I successfully defended my DPhil thesis today! I am deeply grateful...',
           description: "",
+          section: "News",},{id: "news-my-dphil-thesis-is-now-available-online-here",
+          title: 'My DPhil thesis is now available online here.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
