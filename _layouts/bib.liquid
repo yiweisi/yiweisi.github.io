@@ -159,6 +159,14 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {%- if entry.type %}
+        <span
+          class="badge"
+          style="background-color: var(--global-theme-color); color: white; padding: 0.4rem 0.8rem; font-size: 0.75rem; vertical-align: middle; margin-right: 0.2rem;"
+        >
+          {{- entry.type -}}
+        </span>
+      {%- endif %}
       {%- if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
       {%- endif %}
@@ -290,3 +298,4 @@
     {%- endif %}
   </div>
 </div>
+
