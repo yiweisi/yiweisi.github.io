@@ -1,12 +1,12 @@
 ---
 ---
-<!-- _layouts/bib.html -->
+<!-- _layouts/bib.liquid -->
 {%- assign has_badge_or_preview = false -%}
 {%- if site.enable_publication_thumbnails and (entry.preview or entry.abbr) -%}
   {%- assign has_badge_or_preview = true -%}
 {%- endif -%}
 
-<div class="row mx-0">
+<div class="row">
   {%- if has_badge_or_preview -%}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {%- if entry.preview -%}
@@ -43,7 +43,7 @@
   {%- endif -%}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if has_badge_or_preview %}col-sm-10 px-0{% else %}col-12 px-0{% endif %}">
+  <div id="{{entry.key}}" class="{% if has_badge_or_preview %}col-sm-10{% else %}col-12{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -113,15 +113,15 @@
           class="more-authors"
           title="click to view {{more_authors_hide}}"
           onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
             }, '{{site.more_authors_animation_delay}}');
           "
         >
@@ -161,12 +161,33 @@
     <!-- Links/Buttons -->
     <div class="links">
       {%- if entry.type %}
-        <span
-          class="badge"
-          style="background-color: var(--global-theme-color); color: white; padding: 0.4rem 0.8rem; font-size: 0.75rem; vertical-align: middle; margin-right: 0.2rem;"
-        >
-          {{- entry.type -}}
-        </span>
+        {%- assign page_title_lower = page.title | downcase -%}
+        {%- assign page_url_lower = page.url | downcase -%}
+        {%- assign entry_type_lower = entry.type | downcase -%}
+        {%- assign is_presentation_page = false -%}
+        {%- if page_title_lower contains 'presentation' or page_url_lower contains 'presentation' -%}
+          {%- assign is_presentation_page = true -%}
+        {%- endif -%}
+        {%- assign is_excluded_type = false -%}
+        {%- if entry_type_lower contains 'talk'
+          or entry_type_lower contains 'poster'
+          or entry_type_lower contains 'presentation'
+          or entry_type_lower contains 'conference'
+          or entry_type_lower contains 'inproceedings'
+          or entry_type_lower contains 'workshop'
+          or entry_type_lower contains 'oral'
+          or entry_type_lower contains 'misc'
+        -%}
+          {%- assign is_excluded_type = true -%}
+        {%- endif -%}
+        {%- unless is_presentation_page or is_excluded_type %}
+          <span
+            class="badge"
+            style="background-color: var(--global-theme-color); color: white; padding: 0.4rem 0.8rem; font-size: 0.75rem; vertical-align: middle; margin-right: 0.2rem;"
+          >
+            {{- entry.type -}}
+          </span>
+        {%- endunless %}
       {%- endif %}
       {%- if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
