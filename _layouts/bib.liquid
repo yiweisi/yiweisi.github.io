@@ -140,6 +140,10 @@
       {%- capture entrytype -%}{{entry.booktitle}}{%- endcapture -%}
     {%- elsif thesis contains entry_type_lower or entry.school -%}
       {%- capture entrytype -%}<em>{% if entry.type != 'phdthesis' and entry.type != 'mastersthesis' and entry.type != 'thesis' %}{{entry.type}}, {% endif %}{{entry.school}}</em>{%- endcapture -%}
+    {%- elsif entry.howpublished -%}
+      {%- capture entrytype -%}{{entry.howpublished}}{%- endcapture -%}
+    {%- elsif entry.booktitle -%}
+      {%- capture entrytype -%}{{entry.booktitle}}{%- endcapture -%}
     {%- else -%}
       {%- capture entrytype -%}{%- endcapture -%}
     {%- endif -%}
