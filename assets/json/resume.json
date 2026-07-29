@@ -28,22 +28,29 @@
       "endDate": "2020"
     }
   ],
-  "awards": [
-    {
-      "name": "Hanseatic Scholarship (approx. GBP 12,570), Alfred Toepfer Stiftung",
-      "startDate": "2025",
-      "endDate": "2026"
-    },
-    {
-      "name": "Clarendon Fund Scholarship (approx. GBP 102,000), University of Oxford",
-      "startDate": "2022",
-      "endDate": "2025"
-    },
-    {
-      "name": "Katrina Hayward Prize (GBP 100), Faculty of Linguistics, Philology and Phonetics, University of Oxford",
-      "date": "2022"
-    }
-  ],
+ "awards": [
+  {
+    "title": "Hanseatic Scholarship",
+    "date": "2025–2026",
+    "awarder": "Alfred Toepfer Stiftung"
+  },
+  {
+    "title": "Clarendon Fund Scholarship",
+    "date": "2022–2025",
+    "awarder": "University of Oxford"
+  },
+  {
+    "title": "Katrina Hayward Prize",
+    "date": "2022",
+    "awarder": "Faculty of Linguistics, Philology and Phonetics, University of Oxford",
+    "summary": "Best performance in the MPhil examination"
+  },
+  {
+    "title": "Visiting Student Scholarship",
+    "date": "2018–2019",
+    "awarder": "China Scholarship Council"
+  }
+],
   "skills": [
     {
       "name": "Physics",
