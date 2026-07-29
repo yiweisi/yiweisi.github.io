@@ -28,29 +28,29 @@
       "endDate": "2020"
     }
   ],
- "awards": [
-  {
-    "title": "Hanseatic Scholarship",
-    "date": "2025–2026",
-    "awarder": "Alfred Toepfer Stiftung"
-  },
-  {
-    "title": "Clarendon Fund Scholarship",
-    "date": "2022–2025",
-    "awarder": "University of Oxford"
-  },
-  {
-    "title": "Katrina Hayward Prize",
-    "date": "2022",
-    "awarder": "Faculty of Linguistics, Philology and Phonetics, University of Oxford",
-    "summary": "Best performance in the MPhil examination"
-  },
-  {
-    "title": "Visiting Student Scholarship",
-    "date": "2018–2019",
-    "awarder": "China Scholarship Council"
-  }
-],
+  "awards": [
+    {
+      "title": "Hanseatic Scholarship",
+      "date": "2025–2026",
+      "awarder": "Alfred Toepfer Stiftung"
+    },
+    {
+      "title": "Clarendon Fund Scholarship",
+      "date": "2022–2025",
+      "awarder": "University of Oxford"
+    },
+    {
+      "title": "Katrina Hayward Prize",
+      "date": "2022",
+      "awarder": "Faculty of Linguistics, Philology and Phonetics, University of Oxford",
+      "summary": "Best performance in the MPhil examination"
+    },
+    {
+      "title": "Visiting Student Scholarship",
+      "date": "2018–2019",
+      "awarder": "China Scholarship Council"
+    }
+  ],
   "skills": [
     {
       "name": "Physics",
