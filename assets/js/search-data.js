@@ -76,6 +76,9 @@ ninja.data = [{
           section: "News",},{id: "news-my-dphil-thesis-is-now-available-online-here",
           title: 'My DPhil thesis is now available online here.',
           description: "",
+          section: "News",},{id: "news-new-paper-published-my-article-doch-as-a-hidden-hurdle-to-finiteness-realization-in-german-l1-acquisition-is-now-available-open-access-in-glossa-a-journal-of-general-linguistics",
+          title: 'New paper published! My article “Doch as a hidden hurdle to finiteness realization...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
