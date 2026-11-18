@@ -12,11 +12,11 @@
 {% endcapture %}
 
 {% capture footer_social %}
-  <div class="footer-social-icons">
+  <div class="d-flex align-items-center" style="gap: 20px;">
     <a href="mailto:yiwei.si@bfsu.edu.cn"
        aria-label="Email"
        title="Email">
-      <i class="fa-solid fa-envelope"></i>
+      <i class="fa-solid fa-envelope fa-lg"></i>
     </a>
 
     <a href="https://scholar.google.com/citations?user=9yb0snwAAAAJ"
@@ -24,24 +24,18 @@
        rel="noopener noreferrer"
        aria-label="Google Scholar"
        title="Google Scholar">
-      <i class="ai ai-google-scholar"></i>
+      <i class="ai ai-google-scholar ai-lg"></i>
     </a>
-  </div>
-{% endcapture %}
-
-{% capture footer_inner %}
-  <div class="custom-footer-layout">
-    <div class="footer-copyright">
-      {{ footer_contents }}
-    </div>
-    {{ footer_social }}
   </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      {{ footer_inner }}
+      <div class="d-flex justify-content-between align-items-center flex-wrap" style="gap: 12px;">
+        <div>{{ footer_contents }}</div>
+        {{ footer_social }}
+      </div>
     </div>
   </footer>
 {% else %}
@@ -51,7 +45,10 @@
     {% endif %}
 
     <div class="container">
-      {{ footer_inner }}
+      <div class="d-flex justify-content-between align-items-center flex-wrap" style="gap: 12px;">
+        <div>{{ footer_contents }}</div>
+        {{ footer_social }}
+      </div>
     </div>
   </footer>
 {% endif %}
