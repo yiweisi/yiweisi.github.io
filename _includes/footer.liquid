@@ -11,31 +11,10 @@
   {% endif %}
 {% endcapture %}
 
-{% capture footer_social %}
-  <div class="d-flex align-items-center" style="gap: 20px;">
-    <a href="mailto:yiwei.si@bfsu.edu.cn"
-       aria-label="Email"
-       title="Email">
-      <i class="fa-solid fa-envelope fa-lg"></i>
-    </a>
-
-    <a href="https://scholar.google.com/citations?user=9yb0snwAAAAJ"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Google Scholar"
-       title="Google Scholar">
-      <i class="ai ai-google-scholar ai-lg"></i>
-    </a>
-  </div>
-{% endcapture %}
-
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      <div class="d-flex justify-content-between align-items-center flex-wrap" style="gap: 12px;">
-        <div>{{ footer_contents }}</div>
-        {{ footer_social }}
-      </div>
+      {{ footer_contents }}
     </div>
   </footer>
 {% else %}
@@ -45,10 +24,7 @@
     {% endif %}
 
     <div class="container">
-      <div class="d-flex justify-content-between align-items-center flex-wrap" style="gap: 12px;">
-        <div>{{ footer_contents }}</div>
-        {{ footer_social }}
-      </div>
+      {{ footer_contents }}
     </div>
   </footer>
 {% endif %}
