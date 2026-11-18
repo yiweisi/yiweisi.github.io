@@ -29,12 +29,15 @@
   </div>
 {% endcapture %}
 
+
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      <div class="d-flex justify-content-between align-items-center flex-wrap" style="gap: 12px;">
-        <div>{{ footer_contents }}</div>
-        {{ footer_social }}
+      <div style="position: relative; text-align: center; color: white; padding: 8px 90px;">
+        {{ footer_contents }}
+        <div style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);">
+          {{ footer_social }}
+        </div>
       </div>
     </div>
   </footer>
@@ -45,9 +48,11 @@
     {% endif %}
 
     <div class="container">
-      <div class="d-flex justify-content-between align-items-center flex-wrap" style="gap: 12px;">
-        <div>{{ footer_contents }}</div>
-        {{ footer_social }}
+      <div style="position: relative; text-align: center; color: white; padding: 8px 90px;">
+        {{ footer_contents }}
+        <div style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);">
+          {{ footer_social }}
+        </div>
       </div>
     </div>
   </footer>
