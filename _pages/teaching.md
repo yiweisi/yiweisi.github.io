@@ -1,3 +1,4 @@
+
 ---
 layout: page
 permalink: /teaching/
@@ -7,16 +8,27 @@ nav: true
 nav_order: 5
 ---
 
-<!------------------- Lecturer -------------------->
-
-### Lecturer (University of Oxford)
+## Beijing Foreign Studies University
 
 <hr>
 
-**Stipendiary lecturer in German linguistics, St Hilda’s College** (2023-2024)
+### Lecturer
+
+**German as a Second Foreign Language (1)**  
+Winter Semester 2026
+
+<br>
+
+## University of Oxford
+
+<hr>
+
+### Stipendiary Lecturer
+
+**St Hilda’s College (2023–2024)**
 
 - Paper taught: ‘German V (ii): Linguistic Studies II: Present Day’
-- Conducted weekly one-to-one and small group tutorials for first- and second-year undergraduates in Modern Languages and Linguistics (MLL), and Psychology, Philosophy and Linguistics (PPL), totaling 4 hours of instruction per week.
+- Conducted weekly one-to-one and small-group tutorials for first- and second-year undergraduates in Modern Languages and Linguistics (MLL) and Psychology, Philosophy and Linguistics (PPL), totaling 4 hours of instruction per week.
 - Topics:
   - German phonetics and phonology
   - German morphology
@@ -30,13 +42,12 @@ nav_order: 5
 
 ### Teaching Assistant/Tutor
 
-<hr>
+**Prelim Semantics and Pragmatics**
 
-- **Prelim Semantics and Pragmatics**
+- Hilary Term 2025 — Dr Daniel Altshuler
+- Hilary Term 2024 — Dr Danfeng Wu
+- Hilary Term 2023 — Dr Daniel Altshuler
 
-  - Hilary Term 2025 with Dr. Daniel Altshuler
-  - Hilary Term 2024 with Dr. Danfeng Wu
-  - Hilary Term 2023 with Dr. Daniel Altshuler
+**German V (ii): Linguistic Studies II: Present Day**
 
-- **German V (ii): Linguistic Studies II: Present Day**
-  - Trinity Term 2025 with Dr. Kerstin Hoge
+- Trinity Term 2025 — Dr Kerstin Hoge
