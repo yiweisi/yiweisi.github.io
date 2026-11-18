@@ -29,6 +29,6 @@ Hello! My name is Yiwei Si. I am a linguist interested in formal morphology and 
 
 I hold a DPhil in Linguistics from the [University of Oxford](https://www.ox.ac.uk/), where I was supervised by [Dr Kerstin Hoge](https://www.mod-langs.ox.ac.uk/people/kerstin-hoge). My doctoral studies were supported by the [Clarendon Scholarship](https://www.clarendonscholarsassociation.co.uk/) and the [Hanseatic Scholarship](https://www.toepfer-stiftung.de/en/what-we-do/hanseatic-scholarship-programme). As part of the latter, I was a visiting researcher at the [Leibniz-Centre General Linguistics (ZAS)](https://www.leibniz-zas.de/de/) in Berlin from 2025 to 2026.
 
-My research focuses on the morphosyntax of German. My DPhil thesis investigates aspectual particles and double particles from theoretical and experimental perspectives. I am also interested in psycholinguistics and first language acquisition.
+My research focuses on the morphosyntax of German. My DPhil thesis investigates German verbal particles, specifically aspectual particles and double particles, from theoretical and experimental perspectives. I am also interested in psycholinguistics and first language acquisition.
 
 Outside of linguistics, I enjoy exploring local restaurants, practicing yoga, playing tennis, and travelling.
